@@ -1,0 +1,74 @@
+body{
+    font-family: 'Monserrath';
+    background-color: #f8f9fa;
+}
+
+.main-container{
+    background-color: #f8f9fa;
+    padding: 4rem;
+}
+.main-image{
+    overflow: hidden;
+}
+.phone-back{
+
+}
+
+#img1{
+    height: 65vh;
+    margin-top: 5%;
+    z-index: 2;
+}
+
+#img2{
+    height: 75vh;
+    z-index: 3;
+    margin-top: 15%;
+    margin-left: -30%;
+}
+
+#img0{
+    height: 40vh;
+    width: auto;
+    z-index: 1;
+    margin-left: -50vw; 
+    margin-top: 51vh; 
+    filter: blur(2px);
+}
+
+.logo{
+    width: 30vw;
+    height: auto;
+    margin: 5%;
+}
+
+.slogan{
+    font-size: larger;
+    font-weight: 500;
+    max-width: 30vw;
+    margin-top: 5%;
+}
+
+li>b{
+color:#424242;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators {
+  filter: invert(1);
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 70vh;
+    object-fit: scale-down;
+  }
+
+a, a:visited{
+    text-decoration: none !important;
+    color: #2375f5;
+}
+
+.tituloMejoras{
+    color: #003ba3;
+}
